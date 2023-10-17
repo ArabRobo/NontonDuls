@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6534958212:AAFZ_NtLnSjPpV8RUIXR4K2EyW6HzsCL3HQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5902769815:AAGMho0OHmaJhHPFHXj_AMGNiCKVXo0F2Xc")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "10064016"))
@@ -30,14 +30,14 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://wpvxrvmo:n6vJyWstswAifaaZoR4C12dE5TUojQ6P@trumpet.db.elephantsql.com/wpvxrvmo")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://dwlrqvxi:EhgFcjqDcHjhldBp75oCJQ6mONprRo0V@mouse.db.elephantsql.com/dwlrqvxi")
 
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001757481471"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001809708760"))
-FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001812890243"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001537697834"))
+FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "-1001595153834"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
 FORCE_SUB_6 = int(os.environ.get("FORCE_SUB_6", "0"))
